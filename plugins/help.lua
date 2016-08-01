@@ -108,10 +108,8 @@ do
     end
     text = text .. '\n' .. 'راهنما برای <b>' .. i .. '</b> پلاگین وجود دارد.\n'
            .. '<b>-</b> <code>برای دریافت راهنمای هر پلاگین از دستور:</code> !help [اسم پلاگین] \n'
-           .. '<b>-</b> <code>یــا:</code> !help [شماره پلاگین]\n'
-           .. '<b>-</b> <code>استفاده کنید.\n'
-           .. '<b>-</b> <code>برای دریافت راهنمای همه پلاگین ها از دستور:</code> !help all\n' 
-           .. '<b>-</b> <code>استفاده کنید.\n'
+           .. '<b>-</b> <code>یــا:</code> !help [شماره پلاگین] </code> استفاده کنید \n'
+           .. '<b>-</b> <code>برای دریافت راهنمای همه پلاگین ها از دستور:</code> !help all </code> استفاده کنید \n'
 
     bot_sendMessage(get_receiver_api(msg), text, true, msg.id, 'html')
   end
