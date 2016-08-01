@@ -110,7 +110,7 @@ do
            .. '<b>-</b> <code>برای دریافت راهنمای هر پلاگین از دستور:</code> !help [اسم پلاگین] \n'
            .. '<b>-</b> <code>یــا:</code> !help [شماره پلاگین]\n'
            .. '<b>-</b> <code>استفاده کنید.\n'
-           .. '<b>-</b> <code>برای دریافت راهنمای همه پلاگین ها از دستور:</code> !help all'
+           .. '<b>-</b> <code>برای دریافت راهنمای همه پلاگین ها از دستور:</code> !help all\n' 
            .. '<b>-</b> <code>استفاده کنید.\n'
 
     bot_sendMessage(get_receiver_api(msg), text, true, msg.id, 'html')
