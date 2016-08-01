@@ -106,10 +106,12 @@ do
       text = text .. '<b>' .. i .. '</b>. ' .. name .. '\n'
       end
     end
-    text = text .. '\n' .. 'There are <b>' .. i .. '</b> plugins help available.\n'
-           .. '<b>-</b> <code>!help [plugin name]</code> for more info.\n'
-           .. '<b>-</b> <code>!help [plugin number]</code> for more info.\n'
-           .. '<b>-</b> <code>!help all</code> to show all info.'
+    text = text .. '\n' .. 'راهنما برای <b>' .. i .. '</b> پلاگین وجود دارد.\n'
+           .. '<b>-</b> <code>برای دریافت راهنمای هر پلاگین از دستور:</code> !help [اسم پلاگین] \n'
+           .. '<b>-</b> <code>یــا:</code> !help [شماره پلاگین]\n'
+           .. '<b>-</b> <code>استفاده کنید.\n'
+           .. '<b>-</b> <code>برای دریافت راهنمای همه پلاگین ها از دستور:</code> !help all'
+           .. '<b>-</b> <code>استفاده کنید.\n'
 
     bot_sendMessage(get_receiver_api(msg), text, true, msg.id, 'html')
   end
